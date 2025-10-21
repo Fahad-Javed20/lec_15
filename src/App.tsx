@@ -1,12 +1,15 @@
 
 import './App.css'
+import Calculate from './components/Calculate'
+import FreshComponent from './components/FreshComponent'
 
 function App() {
  
 
   return (
     <>
-     Lecture Number 15
+     <Calculate length={4} width={12} />
+     <FreshComponent luckyNumber={5}/>
         
     </>
   )
